@@ -8,8 +8,8 @@
 		<version>3.2.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.mycompany</groupId>
-	<artifactId>noteapp</artifactId>
+	<groupId>com.mycompany.noteapp</groupId>
+	<artifactId>core</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>noteapp</name>
 	<description>A simple back-end app for note taking application with authentication</description>

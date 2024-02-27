@@ -1,7 +1,6 @@
-package com.mycompany.noteapp.repository;
+package com.mycompany.noteapp.core.repository;
 
-import com.mycompany.noteapp.entity.Note;
-import org.springframework.stereotype.Repository;
+import com.mycompany.noteapp.core.entity.Note;
 
 import java.util.ArrayList;
 import java.util.List;

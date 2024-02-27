@@ -1,9 +1,7 @@
-package com.mycompany.noteapp.repository;
+package com.mycompany.noteapp.core.repository;
 
-import com.mycompany.noteapp.entity.Note;
+import com.mycompany.noteapp.core.entity.Note;
 import org.springframework.data.jpa.repository.JpaRepository;
-
-import java.util.List;
 
 public interface RepositoryInterface extends JpaRepository<Note,Long> {
 //

@@ -1,10 +1,10 @@
-package com.mycompany.noteapp.entity;
+package com.mycompany.noteapp.core.entity;
 
 
 import jakarta.persistence.*;
 
 @Entity
-public class Note {
+public class Note extends NoteObj{
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -17,12 +17,15 @@ public class Note {
 
     public Note()
     {
+        super();
     }
     public Note(String title, String body) {
+        super();
         this.title = title;
         this.body = body;
     }
     public Note(Long id,String title, String body) {
+        super();
         this.title = title;
         this.body = body;
         this.id = id;
